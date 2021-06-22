@@ -1,0 +1,51 @@
+﻿1st Question (two questions):
+
+Why is it not neccesary for a program to be completely free of defects before it is delivered to its customers.
+
+- The program don't need to be completely free of defects before it is delivered to its customers if:
+  ` The defect is so minor that it won't disrupt the performance or the work of the system.
+  ` The defects is recoverable and the recovery function is available to the extent of minimum distractions.
+  ` The benefits of the program exceeds the cost of defect that might occur.
+ - In addition it is not possible to always deliver a defect free product to the customer that is 100% quality.
+ - Testing can't completely validate that a system is fit for its intended purpose as this requires a detailed knowledge of
+   what that purpose will be and how exactly the system will be used. As these details change between deciding to procure a system
+   and deploying that system, the testing will be neccesary incomplete.
+ - It is practically impossible to have a testing system that covers all posible ways in which a user will use a system.
+  
+
+Why can testing only detect the presence of errors, not their absence?
+
+- The goal of software testing is to observe the software behaviour to meet its requirement expectation.
+- Testing is a set of activities where the tester try to make the software behave anomalous in order to detect a defect or anomaly to be later fix
+- We can never know for sure if the product (through software testing) is 100% correct and without faults
+
+2nd Question
+
+What are the pros and cons of testing being carried out by the developers themselves?
+
+Pros:
+
+The developer will be familiar with the program as well as knowlegable about the program.
+The developer will have the satisfaction seeing the program pass the required specifications.
+
+Cons:
+
+- Misunderstandings on the business and technical requirements will not be detected because the developer will tend to
+  assume that what he said to the other person is correct and/or he will treat it as a functionality or limitation of the program.
+  Because of this, improper use of the development process may not also be detected.
+- The developer will tend to be over optimistic on the program. Because of this, he might overlook other details of the program or will skip bugs.
+- Some parts of the program will not be tested because once the developer has seen that a certain part is working, 
+  he will not re-test it as he will always assume that it’s already working properly and doesn’t affect other process.
+- It is time-consuming for the developer and he/she can therefore rather spend time on other parts of his work.
+  It is therefore better to leave most of the testing process to the software tester.
+  
+3rd Question
+
+A common approach to system testing is to test the system until the testing budget is exhausted and then deliver the system to customers.
+Discuss the ethics of this approach to system testing.
+
+- This is not a very ethical approach. No software can ever be wholly correct or completely tested. The above question should be approached from the
+  domain and software type being devoloped for customers. Video games for example can be testing by the discretion but in cases where the software is safety critical for example it may
+  be importand to go over the testing budget if neccesary. For example, software that calculate how many fuel must be loaded onto a commercial jet muct be very accurate to take the safety of people into account who will be using the jet.
+  Merely maxing out the budget and releasing software with obvious flaws and errors will be very unethical. Sometimes going over the budget is the moral option.
+  
